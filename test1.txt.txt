@@ -1,1 +1,18 @@
 httpsyoutu.be/MofrFKkBg0sНейфельд Дарья
+#include <stdio.h> 
+#include <stdlib.h> 
+void main() 
+{
+	system("Chcp 1251"); 
+	double a, b, c, S, V; 
+	printf("Введите значение a "); 
+	scanf("%lf", &a); 
+	printf("Введите значение b "); 
+	scanf("%lf", &b); 
+	printf("Введите значение c "); 
+	scanf("%lf", &c); 
+	S = 2 * (a * b + a * c + b * c); 
+	V = a * b * c; 
+	printf("Площадь поверхности параллепипеда=%lf", S); 
+	printf("Объём поверхности параллепипеда=%lf", V); 
+}
